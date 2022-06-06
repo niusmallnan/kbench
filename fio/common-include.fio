@@ -1,5 +1,4 @@
-stonewall=1
-randrepeat=0
+stonewall
 verify=0
 ioengine=libaio
 direct=1
