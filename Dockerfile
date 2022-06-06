@@ -1,6 +1,6 @@
 FROM ubuntu:22.04
 
-RUN apt update && apt install -y fio bash jq
+RUN apt update && apt install -y fio bash jq vim
 
 ADD ./fio/ /fio/
 WORKDIR /fio
